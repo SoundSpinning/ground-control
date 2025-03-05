@@ -28,9 +28,13 @@
         fill: var(--dl-color-theme-neutral-dark);
       }
     </style>
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    /> -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link
       rel="stylesheet"
@@ -52,10 +56,16 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
       data-tag="font"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    /> -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="./css/index.css" rel="stylesheet" />
     <style>
       @keyframes fade-in-left {
         0% {
@@ -70,11 +80,8 @@
     </style>
   </head>
   <body>
-    <link rel="stylesheet" href="./css/style.css" />
     <div>
-      <link href="./css/index.css" rel="stylesheet" />
-
-      <div class="home-container">
+      <div id="home" class="home-container">
         <navbar-wrapper class="navbar-wrapper">
           <!--Navbar component-->
           <header class="navbar-container">
@@ -86,21 +93,21 @@
               />
               <div data-thq="thq-navbar-nav" class="navbar-desktop-menu">
                 <nav class="navbar-links1">
-                  <span class="thq-body-small thq-link"><span>Home</span></span>
+                  <span class="thq-body-small thq-link" href="#"><span>Home</span></span>
                   <span class="thq-body-small thq-link">
-                    <span>Services</span>
+                    <a  href="./#services">Services</a>
                   </span>
-                  <span class="thq-body-small thq-link">
+                  <!-- <span class="thq-body-small thq-link">
                     <span>Portfolio</span>
-                  </span>
-                  <span class="thq-body-small thq-link">
+                  </span> -->
+                  <span class="thq-body-small thq-link" href="#testimonials">
                     <span>Testimonials</span>
                   </span>
                   <span class="thq-body-small thq-link">
                     <span>Contact</span>
                   </span>
                 </nav>
-                <div class="navbar-buttons1">
+                <!-- <div class="navbar-buttons1">
                   <button
                     class="navbar-action11 thq-button-filled thq-button-animated"
                   >
@@ -111,7 +118,7 @@
                   >
                     <span class="thq-body-small">Action 2</span>
                   </button>
-                </div>
+                </div> -->
               </div>
               <div data-thq="thq-burger-menu" class="navbar-burger-menu">
                 <svg viewBox="0 0 1024 1024" class="navbar-icon1">
@@ -143,9 +150,9 @@
                     <span class="thq-body-small thq-link">
                       <span>Services</span>
                     </span>
-                    <span class="thq-body-small thq-link">
+                    <!-- <span class="thq-body-small thq-link">
                       <span>Portfolio</span>
-                    </span>
+                    </span> -->
                     <span class="thq-body-small thq-link">
                       <span>Testimonials</span>
                     </span>
@@ -358,7 +365,7 @@
             </div>
           </div>
         </hero-wrapper>
-        <features1-wrapper class="features1-wrapper">
+        <features1-wrapper id="services" class="features1-wrapper">
           <!--Features1 component-->
           <div class="thq-section-padding">
             <div class="features1-container2 thq-section-max-width">
@@ -534,9 +541,9 @@
             </div>
           </div>
         </features2-wrapper>
-        <pricing-wrapper class="pricing-wrapper">
+        <!-- <pricing-wrapper class="pricing-wrapper"> -->
           <!--Pricing component-->
-          <div class="pricing-pricing23 thq-section-padding">
+          <!-- <div class="pricing-pricing23 thq-section-padding">
             <div class="pricing-max-width thq-section-max-width">
               <div class="pricing-section-title">
                 <span class="pricing-text10 thq-body-small">
@@ -947,7 +954,7 @@
               </div>
             </div>
           </div>
-        </pricing-wrapper>
+        </pricing-wrapper> -->
         <steps-wrapper class="steps-wrapper">
           <!--Steps component-->
           <div class="steps-container1 thq-section-padding">
@@ -1019,7 +1026,7 @@
             </div>
           </div>
         </steps-wrapper>
-        <testimonial-wrapper class="testimonial-wrapper">
+        <testimonial-wrapper id="testimonials" class="testimonial-wrapper">
           <!--Testimonial component-->
           <div class="thq-section-padding">
             <div class="testimonial-max-width thq-section-max-width">
@@ -1163,7 +1170,7 @@
             </div>
           </div>
         </testimonial-wrapper>
-        <contact-wrapper class="contact-wrapper">
+        <contact-wrapper id="contact" class="contact-wrapper">
           <!--Contact component-->
           <div class="contact-contact20 thq-section-padding">
             <div class="contact-max-width thq-section-max-width">
@@ -1251,7 +1258,7 @@
           <footer class="footer-footer1 thq-section-padding">
             <div class="footer-max-width thq-section-max-width">
               <div class="footer-content">
-                <div class="footer-newsletter">
+                <!-- <div class="footer-newsletter">
                   <img
                     alt="Your Company Logo"
                     src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
@@ -1283,7 +1290,7 @@
                       </span>
                     </span>
                   </div>
-                </div>
+                </div> -->
                 <div class="footer-links">
                   <div class="footer-column1">
                     <strong class="thq-body-large footer-column1-title">
@@ -1332,7 +1339,7 @@
                       </a>
                     </div>
                   </div>
-                  <div class="footer-column2">
+                  <!-- <div class="footer-column2">
                     <strong class="thq-body-large footer-column2-title">
                       <span>Follow Us</span>
                     </strong>
@@ -1378,10 +1385,10 @@
                         <span>Pinterest</span>
                       </a>
                     </div>
-                  </div>
+                  </div> -->
                   <div class="footer-column3">
                     <strong class="thq-body-large footer-social-link1-title">
-                      <span>Connect with us on social media</span>
+                      <span>Connect on social media</span>
                     </strong>
                     <div class="footer-social-links">
                       <div class="footer-link14">
@@ -1406,7 +1413,7 @@
                         </svg>
                         <span class="thq-body-small">Instagram</span>
                       </div>
-                      <div class="footer-link16">
+                      <!-- <div class="footer-link16">
                         <svg
                           viewBox="0 0 950.8571428571428 1024"
                           class="thq-icon-small"
@@ -1435,7 +1442,7 @@
                           ></path>
                         </svg>
                         <span class="thq-body-small">Youtube</span>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </div>
@@ -1444,9 +1451,9 @@
                 <div class="thq-divider-horizontal"></div>
                 <div class="footer-row">
                   <span class="thq-body-small">
-                    <span>© 2023 Your Company Name. All rights reserved.</span>
+                    <span>© 2025 Ground Control by Major Tom</span>
                   </span>
-                  <div class="footer-footer-links3">
+                  <!-- <div class="footer-footer-links3">
                     <span class="thq-body-small">
                       <span>/privacy-policy</span>
                     </span>
@@ -1456,7 +1463,7 @@
                     <span class="thq-body-small">
                       <span>/cookie-policy</span>
                     </span>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -1466,7 +1473,11 @@
     </div>
     <script
       data-section-id="navbar"
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+      src="./js/index.umd.js"
     ></script>
+    <!-- <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script> -->
   </body>
 </html>
