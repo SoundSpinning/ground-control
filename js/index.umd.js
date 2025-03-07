@@ -5343,16 +5343,16 @@ var __accessCheck = (obj, member, msg) => {
               return;
             }
             burgerBtn.addEventListener("click", () => {
-              mobileMenu.classList.add("teleport-show");
+              mobileMenu.classList.add("show");
             });
             closeBtn.addEventListener("click", () => {
-              mobileMenu.classList.remove("teleport-show");
+              mobileMenu.classList.remove("show");
             });
             mobileMenu.addEventListener("click", (event) => {
               var _a;
               const target = event.target;
               if (target.tagName === "A" && ((_a = target.getAttribute("href")) == null ? void 0 : _a.startsWith("#"))) {
-                mobileMenu.classList.remove("teleport-show");
+                mobileMenu.classList.remove("show");
               }
             });
           });
@@ -5401,27 +5401,27 @@ var __accessCheck = (obj, member, msg) => {
                   document.body.style.overflow = bodyOverflow;
                 }
                 if (currentElement.pathname === window.location.pathname) {
-                  mobileMenu.classList.remove("teleport-show");
+                  mobileMenu.classList.remove("show");
                   mobileMenu.classList.remove("thq-show");
                   mobileMenu.classList.remove("thq-translate-to-default");
                 }
                 this.removeEventListener("click", checkSameLinkClicked);
               });
               document.body.style.overflow = "hidden";
-              mobileMenu.classList.add("teleport-show");
+              mobileMenu.classList.add("show");
               mobileMenu.classList.add("thq-show");
               mobileMenu.classList.add("thq-translate-to-default");
             });
             closeBtn.addEventListener("click", () => {
               document.body.style.overflow = bodyOverflow;
-              mobileMenu.classList.remove("teleport-show");
+              mobileMenu.classList.remove("show");
               mobileMenu.classList.remove("thq-show");
               mobileMenu.classList.remove("thq-translate-to-default");
             });
             mobileMenu.addEventListener("click", (event) => {
               const target = event.target;
               if (target instanceof HTMLAnchorElement) {
-                mobileMenu.classList.remove("teleport-show");
+                mobileMenu.classList.remove("show");
                 mobileMenu.classList.remove("thq-show");
                 mobileMenu.classList.remove("thq-translate-to-default");
               }
@@ -5448,10 +5448,10 @@ var __accessCheck = (obj, member, msg) => {
               return;
             }
             burgerMenuElement.addEventListener("click", () => {
-              mobileMenuElement.classList.add("teleport-show");
+              mobileMenuElement.classList.add("show");
             });
             closeMenuElement.addEventListener("click", () => {
-              mobileMenuElement.classList.remove("teleport-show");
+              mobileMenuElement.classList.remove("show");
             });
           });
         };

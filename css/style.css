@@ -75,7 +75,7 @@
   display: list-item;
 }
  
-.teleport-show {
+.show {
   display: flex !important;
   transform: none !important;
 }
@@ -389,6 +389,7 @@
   background-size: 200% 100%;
   background-position: 100%;
   -webkit-text-fill-color: transparent;
+  /* scroll-behavior: smooth; */
 }
  
 .thq-link:hover {
