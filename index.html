@@ -66,7 +66,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <style>
-      @keyframes fade-in-left {
+      @keyframes fadeIn {
         0% {
           opacity: 0;
           transform: translateX(-20px);
@@ -78,17 +78,18 @@
       }
     </style>
   </head>
+
   <body>
     <div>
       <div id="home" class="home-container">
+        <!--Navbar component-->
         <navbar-wrapper class="navbar-wrapper">
-          <!--Navbar component-->
           <header class="navbar-container">
             <header data-thq="thq-navbar" class="navbar-navbar-interactive">
               <img
                 alt="logo"
-                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&amp;force_format=original"
-                class="navbar-image1 thq-link"
+                src="assets/logo_ground_control.jpg"
+                class="navbar-image1"
               />
               <div data-thq="thq-navbar-nav" class="navbar-desktop-menu">
                 <nav class="navbar-links1">
@@ -108,18 +109,6 @@
                     <a href="#contact"><span>Contact</span></a>
                   </span>
                 </nav>
-                <!-- <div class="navbar-buttons1">
-                  <button
-                    class="navbar-action11 thq-button-filled thq-button-animated"
-                  >
-                    <span class="thq-body-small">Action 1</span>
-                  </button>
-                  <button
-                    class="navbar-action21 thq-button-animated thq-button-outline"
-                  >
-                    <span class="thq-body-small">Action 2</span>
-                  </button>
-                </div> -->
               </div>
               <div data-thq="thq-burger-menu" class="navbar-burger-menu thq-link">
                 <svg viewBox="0 0 1024 1024" class="navbar-icon1">
@@ -133,8 +122,8 @@
                   <div class="navbar-top">
                     <img
                       alt="logo"
-                      src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&amp;force_format=original"
-                      class="navbar-logo thq-link"
+                      src="assets/logo_ground_control.jpg"
+                      class="navbar-logo"
                     />
                     <div data-thq="thq-close-menu" class="navbar-close-menu thq-link">
                       <svg viewBox="0 0 1024 1024" class="navbar-icon3">
@@ -162,46 +151,27 @@
                     </span>
                   </nav>
                 </div>
-                <!-- <div class="navbar-buttons2">
-                  <button class="thq-button-filled">Login</button>
-                  <button class="thq-button-outline">Register</button>
-                </div> -->
               </div>
             </header>
           </header>
         </navbar-wrapper>
+
+        <!--Hero component-->
         <hero-wrapper class="hero-wrapper">
-          <!--Hero component-->
           <div class="hero-header78">
             <div class="hero-column thq-section-max-width thq-section-padding">
               <div class="hero-content1">
                 <h1 class="hero-text1 thq-heading-1">
                   <span>
-                    Transform Your Outdoor Space with Expert Landscaping
-                    Services
+                    Transform Your Outdoor Space with Expert Landscaping Services
                   </span>
                 </h1>
                 <p class="hero-text2 thq-body-large">
                   <span>
-                    Create a stunning and functional outdoor oasis with our
-                    professional landscape design and maintenance services. From
-                    lush gardens to serene water features, we bring your vision
-                    to life.
+                    Create a stunning and functional outdoor space with our professional building, design   andmaintenance services. Landscaping, gardening and patios around the Brighton area   andbeyond. No job is too small to adapt to your needs, we bring your vision to life.
                   </span>
                 </p>
               </div>
-              <!-- <div class="hero-actions">
-                <button class="thq-button-filled hero-button1">
-                  <span class="thq-body-small">
-                    <span>Get a Free Consultation</span>
-                  </span>
-                </button>
-                <button class="thq-button-outline hero-button2">
-                  <span class="thq-body-small">
-                    <span>View Our Portfolio</span>
-                  </span>
-                </button>
-              </div> -->
             </div>
             <div class="hero-content2">
               <div
@@ -210,32 +180,32 @@
                 <div class="thq-animated-group-horizontal">
                   <img
                     alt="Landscape Gardener Hero Image"
-                    src="https://images.unsplash.com/photo-1433048980017-63f162f662b0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                    src="https://images.unsplash.com/photo-1433048980017-63f162f662b0?crop=entropy&ampcs=tinysrgb&  amp;fit=max&amp;fm=jpg&ampixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxM3w&amp;  ixlib=rb-4.0.3&amp;q=80&ampw=1080"
                     class="hero-placeholder-image10 thq-img-scale thq-img-ratio-1-1"
                   />
                   <img
                     alt="Hero Image"
-                    src="https://images.unsplash.com/photo-1431887773042-803ed52bed26?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                    src="https://images.unsplash.com/photo-1431887773042-803ed52bed26?crop=entropy&ampcs=tinysrgb&  amp;fit=max&amp;fm=jpg&ampixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;  ixlib=rb-4.0.3&amp;q=80&ampw=1080"
                     class="hero-placeholder-image11 thq-img-scale thq-img-ratio-1-1"
                   />
                   <img
                     alt="Hero Image"
-                    src="https://images.unsplash.com/photo-1431887773042-803ed52bed26?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                    src="https://images.unsplash.com/photo-1431887773042-803ed52bed26?crop=entropy&ampcs=tinysrgb&  amp;fit=max&amp;fm=jpg&ampixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;  ixlib=rb-4.0.3&amp;q=80&ampw=1080"
                     class="hero-placeholder-image12 thq-img-scale thq-img-ratio-1-1"
                   />
                   <img
                     alt="Hero Image"
-                    src="https://images.unsplash.com/photo-1465188035480-cf3a60801ea5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                    src="https://images.unsplash.com/photo-1465188035480-cf3a60801ea5?crop=entropy&ampcs=tinysrgb&  amp;fit=max&amp;fm=jpg&ampixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;  ixlib=rb-4.0.3&amp;q=80&ampw=1080"
                     class="hero-placeholder-image13 thq-img-scale thq-img-ratio-1-1"
                   />
                   <img
                     alt="Hero Image"
-                    src="https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                    src="https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?crop=entropy&ampcs=tinysrgb&  amp;fit=max&amp;fm=jpg&ampixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;  ixlib=rb-4.0.3&amp;q=80&ampw=1080"
                     class="hero-placeholder-image14 thq-img-scale thq-img-ratio-1-1"
                   />
                   <img
                     alt="Hero Image"
-                    src="https://images.unsplash.com/photo-1516780715095-8ba27d1c3946?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                    src="https://images.unsplash.com/photo-1516780715095-8ba27d1c3946?crop=entropy&ampcs=tinysrgb&  amp;fit=max&amp;fm=jpg&ampixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;  ixlib=rb-4.0.3&amp;q=80&ampw=1080"
                     class="hero-placeholder-image15 thq-img-scale thq-img-ratio-1-1"
                   />
                 </div>
@@ -278,32 +248,32 @@
                 <div class="thq-animated-group-horizontal-reverse">
                   <img
                     alt="Hero Image"
-                    src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                    src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?crop=entropy&ampcs=tinysrgb&  amp;fit=max&amp;fm=jpg&ampixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;  ixlib=rb-4.0.3&amp;q=80&ampw=1080"
                     class="hero-placeholder-image22 thq-img-scale thq-img-ratio-1-1"
                   />
                   <img
                     alt="Hero Image"
-                    src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                    src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?crop=entropy&ampcs=tinysrgb&  amp;fit=max&amp;fm=jpg&ampixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;  ixlib=rb-4.0.3&amp;q=80&ampw=1080"
                     class="hero-placeholder-image23 thq-img-scale thq-img-ratio-1-1"
                   />
                   <img
                     alt="Hero Image"
-                    src="https://images.unsplash.com/photo-1503122703469-3dbbe39d0d1c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                    src="https://images.unsplash.com/photo-1503122703469-3dbbe39d0d1c?crop=entropy&ampcs=tinysrgb&  amp;fit=max&amp;fm=jpg&ampixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;  ixlib=rb-4.0.3&amp;q=80&ampw=1080"
                     class="hero-placeholder-image24 thq-img-scale thq-img-ratio-1-1"
                   />
                   <img
                     alt="Hero Image"
-                    src="https://images.unsplash.com/photo-1470104240373-bc1812eddc9f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                    src="https://images.unsplash.com/photo-1470104240373-bc1812eddc9f?crop=entropy&ampcs=tinysrgb&  amp;fit=max&amp;fm=jpg&ampixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;  ixlib=rb-4.0.3&amp;q=80&ampw=1080"
                     class="hero-placeholder-image25 thq-img-scale thq-img-ratio-1-1"
                   />
                   <img
                     alt="Hero Image"
-                    src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                    src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?crop=entropy&ampcs=tinysrgb&  amp;fit=max&amp;fm=jpg&ampixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;  ixlib=rb-4.0.3&amp;q=80&ampw=1080"
                     class="hero-placeholder-image26 thq-img-scale thq-img-ratio-1-1"
                   />
                   <img
                     alt="Hero Image"
-                    src="https://images.unsplash.com/photo-1503122703469-3dbbe39d0d1c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                    src="https://images.unsplash.com/photo-1503122703469-3dbbe39d0d1c?crop=entropy&ampcs=tinysrgb&  amp;fit=max&amp;fm=jpg&ampixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;  ixlib=rb-4.0.3&amp;q=80&ampw=1080"
                     class="hero-placeholder-image27 thq-img-scale thq-img-ratio-1-1"
                   />
                 </div>
@@ -366,9 +336,59 @@
             </div>
           </div>
         </hero-wrapper>
-        <features1-wrapper class="features1-wrapper">
-          <!--Features1 component-->
+
+        <!--CTA component-->
+        <cta-wrapper class="cta-wrapper">
           <div id="services" class="thq-section-padding">
+            <div class="thq-section-max-width">
+              <div class="cta-accent2-bg">
+                <div class="cta-accent1-bg">
+                  <div class="cta-container2">
+                    <div class="cta-content">
+                      <span class="thq-heading-2">
+                        <span>
+                          Transform Your Outdoor Space Today
+                        </span>
+                      </span>
+                      <p class="thq-body-large">
+                        <span>
+                          Let us create a stunning outdoor space that enhances the beauty of your property. Contact us for a free consultation. <br><br>
+                          Our expertise includes: <br>
+                          Hedge Cutting,
+                          Garden Clearances,
+                          Landscaping,
+                          Turfing,
+                          Gardening,
+                          Garden Renovation,
+                          Decking,
+                          Patios,
+                          Brickwork,
+                          Pointing,
+                          Tree Removal,
+                          Pruning,
+                          Woodwork,
+                          Garden Maintenance,
+                          Garden Re-design.
+                        </span>
+                      </p>
+                    </div>
+                    <div class="cta-actions">
+                      <a href="#contact">
+                        <button type="button" class="thq-button-filled cta-button">
+                          <span>Get in Touch</span>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </cta-wrapper>
+
+        <!--Features1 component-->
+        <features1-wrapper class="features1-wrapper">
+          <div class="thq-section-padding">
             <div class="features1-container2 thq-section-max-width">
               <div class="features1-image-container">
                 <img
@@ -393,11 +413,10 @@
                     <div class="features1-container3"></div>
                   </div>
                   <div class="features1-content1">
-                    <h2 class="thq-heading-2"><span>Garden Design</span></h2>
+                    <h2 class="thq-heading-2"><span>Landscape, Garden Design</span></h2>
                     <span class="thq-body-small">
                       <span>
-                        Transform your outdoor space with our stunning garden
-                        designs
+                        Transform your outdoor space with our expertise
                       </span>
                     </span>
                   </div>
@@ -408,10 +427,10 @@
                   </div>
                   <div class="features1-content2">
                     <h2 class="thq-heading-2">
-                      <span>Maintenance Plans</span>
+                      <span>Hedge Trimming, Decking Installation</span>
                     </h2>
                     <span class="thq-body-small">
-                      <span>Customized landscape maintenance plans</span>
+                      <span>Expert fast clean up, trimming and patio, decking installations</span>
                     </span>
                   </div>
                 </div>
@@ -421,10 +440,10 @@
                   </div>
                   <div class="features1-content3">
                     <h2 class="thq-heading-2">
-                      <span>Plant Installation</span>
+                      <span>Maintenance Plans</span>
                     </h2>
                     <span class="thq-body-small">
-                      <span>Expert plant selection and installation</span>
+                      <span>Customised landscape, garden maintenance long term plans</span>
                     </span>
                   </div>
                 </div>
@@ -432,554 +451,29 @@
             </div>
           </div>
         </features1-wrapper>
-        <cta-wrapper class="cta-wrapper">
-          <!--CTA component-->
-          <div class="thq-section-padding">
-            <div class="thq-section-max-width">
-              <div class="cta-accent2-bg">
-                <div class="cta-accent1-bg">
-                  <div class="cta-container2">
-                    <div class="cta-content">
-                      <span class="thq-heading-2">
-                        <span>
-                          Transform Your Outdoor Space with Our Expertise
-                        </span>
-                      </span>
-                      <p class="thq-body-large">
-                        <span>
-                          Let us create a stunning landscape that enhances the
-                          beauty of your property. Contact us today for a
-                          consultation.
-                        </span>
-                      </p>
-                    </div>
-                    <div class="cta-actions">
-                      <a href="#contact">
-                        <button
-                          type="button"
-                          class="thq-button-filled cta-button"
-                        >
-                          <span>Get in Touch</span>
-                        </button>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </cta-wrapper>
-        <features2-wrapper class="features2-wrapper">
-          <!--Features2 component-->
-          <div class="thq-section-padding">
-            <div class="features2-container2 thq-section-max-width">
-              <div class="features2-tabs-menu">
-                <div class="features2-tab-horizontal1">
-                  <div class="features2-divider-container1">
-                    <div class="features2-container3"></div>
-                  </div>
-                  <div class="features2-content1">
-                    <h2 class="thq-heading-2">
-                      <span>Custom Landscape Design</span>
-                    </h2>
-                    <span class="thq-body-small">
-                      <span>
-                        We create unique and personalized landscape designs
-                        tailored to your specific needs and preferences.
-                      </span>
-                    </span>
-                  </div>
-                </div>
-                <div class="features2-tab-horizontal2">
-                  <div class="features2-divider-container2">
-                    <div class="features2-container4"></div>
-                  </div>
-                  <div class="features2-content2">
-                    <h2 class="thq-heading-2">
-                      <span>Professional Installation</span>
-                    </h2>
-                    <span class="thq-body-small">
-                      <span>
-                        Our team of experienced landscapers will ensure that
-                        your design is brought to life with precision and
-                        expertise.
-                      </span>
-                    </span>
-                  </div>
-                </div>
-                <div class="features2-tab-horizontal3">
-                  <div class="features2-divider-container3">
-                    <div class="features2-container5"></div>
-                  </div>
-                  <div class="features2-content3">
-                    <h2 class="thq-heading-2">
-                      <span>Ongoing Maintenance</span>
-                    </h2>
-                    <span class="thq-body-small">
-                      <span>
-                        We offer regular maintenance services to keep your
-                        landscape looking beautiful and healthy all year round.
-                      </span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="features2-image-container">
-                <img
-                  alt="Custom Landscape Design Image"
-                  src="https://images.unsplash.com/photo-1431887773042-803ed52bed26?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
-                  class="features2-image1 thq-img-ratio-16-9"
-                />
-                <img
-                  alt="Professional Installation Image"
-                  src="https://images.unsplash.com/photo-1495312040802-a929cd14a6ab?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
-                  class="features2-image2 thq-img-ratio-16-9"
-                />
-                <img
-                  alt="Ongoing Maintenance Image"
-                  src="https://images.unsplash.com/photo-1431887773042-803ed52bed26?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
-                  class="features2-image3 thq-img-ratio-16-9"
-                />
-              </div>
-            </div>
-          </div>
-        </features2-wrapper>
-        <!-- <pricing-wrapper class="pricing-wrapper"> -->
-          <!--Pricing component-->
-          <!-- <div class="pricing-pricing23 thq-section-padding">
-            <div class="pricing-max-width thq-section-max-width">
-              <div class="pricing-section-title">
-                <span class="pricing-text10 thq-body-small">
-                  <span>Choose the perfect plan for you</span>
-                </span>
-                <div class="pricing-content">
-                  <h2 class="pricing-text11 thq-heading-2">
-                    <span>Pricing plan</span>
-                  </h2>
-                  <p class="pricing-text12 thq-body-large">
-                    <span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </span>
-                  </p>
-                </div>
-              </div>
-              <div class="pricing-tabs">
-                <button
-                  class="pricing-button10 thq-button-filled thq-button-animated"
-                >
-                  <span class="thq-body-small">Monthly</span>
-                </button>
-                <button
-                  class="pricing-button11 thq-button-animated thq-button-outline"
-                >
-                  <span class="thq-body-small">Monthly</span>
-                </button>
-                <button
-                  class="pricing-button12 thq-button-filled thq-button-animated"
-                >
-                  <span class="thq-body-small">Yearly</span>
-                </button>
-                <button
-                  class="pricing-button13 thq-button-animated thq-button-outline"
-                >
-                  <span class="thq-body-small">Yearly</span>
-                </button>
-              </div>
-              <div class="pricing-container1">
-                <div class="pricing-column1 thq-card">
-                  <div class="pricing-price10">
-                    <div class="pricing-price11">
-                      <p class="pricing-text17 thq-body-large">
-                        <span>Basic plan</span>
-                      </p>
-                      <h3 class="pricing-text18 thq-heading-3">
-                        <span>$99</span>
-                      </h3>
-                      <p class="thq-body-large"><span>$999/year</span></p>
-                    </div>
-                    <div class="pricing-list1">
-                      <div class="pricing-list-item10">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Garden Design Consultation</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item11">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Plant Selection Assistance</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item12">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Basic Maintenance Guide</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    class="pricing-button14 thq-button-animated thq-button-outline"
-                  >
-                    <span class="thq-body-small"><span>Get Started</span></span>
-                  </button>
-                </div>
-                <div class="pricing-column2 thq-card">
-                  <div class="pricing-price12">
-                    <div class="pricing-price13">
-                      <p class="pricing-text24 thq-body-large">
-                        <span>Business plan</span>
-                      </p>
-                      <h3 class="pricing-text25 thq-heading-3">
-                        <span>$199</span>
-                      </h3>
-                      <p class="thq-body-large"><span>$1999/year</span></p>
-                    </div>
-                    <div class="pricing-list2">
-                      <div class="pricing-list-item13">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Custom Garden Design</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item14">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Planting and Installation</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item15">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Seasonal Maintenance Package</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item16">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    class="pricing-button15 thq-button-filled thq-button-animated"
-                  >
-                    <span class="thq-body-small"><span>Get Started</span></span>
-                  </button>
-                </div>
-                <div class="pricing-column3 thq-card">
-                  <div class="pricing-price14">
-                    <div class="pricing-price15">
-                      <p class="pricing-text32 thq-body-large">
-                        <span>Enterprise plan</span>
-                      </p>
-                      <h3 class="pricing-text33 thq-heading-3">
-                        <span>$299</span>
-                      </h3>
-                      <p class="thq-body-large"><span>$2999/year</span></p>
-                    </div>
-                    <div class="pricing-list3">
-                      <div class="pricing-list-item17">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Full Garden Transformation</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item18">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Professional Maintenance Services</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item19">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Year-round Support &amp; Guidance</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item20">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item21">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    class="pricing-button16 thq-button-filled thq-button-animated"
-                  >
-                    <span class="thq-body-small"><span>Get Started</span></span>
-                  </button>
-                </div>
-              </div>
-              <div class="pricing-container2">
-                <div class="pricing-column4 thq-card">
-                  <div class="pricing-price16">
-                    <div class="pricing-price17">
-                      <span class="pricing-text41 thq-body-large">
-                        <span>Basic plan</span>
-                      </span>
-                      <h3 class="pricing-text42 thq-heading-3">
-                        <span>$200/yr</span>
-                      </h3>
-                      <span class="thq-body-large">
-                        <span>or $20 monthly</span>
-                      </span>
-                    </div>
-                    <div class="pricing-list4">
-                      <div class="pricing-list-item22">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item23">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item24">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    class="pricing-button17 thq-button-animated thq-button-outline"
-                  >
-                    <span class="thq-body-small"><span>Get started</span></span>
-                  </button>
-                </div>
-                <div class="pricing-column5 thq-card">
-                  <div class="pricing-price18">
-                    <div class="pricing-price19">
-                      <span class="pricing-text48 thq-body-large">
-                        <span>Business plan</span>
-                      </span>
-                      <h3 class="pricing-text49 thq-heading-3">
-                        <span>$299/yr</span>
-                      </h3>
-                      <span class="thq-body-large">
-                        <span>or $29 monthly</span>
-                      </span>
-                    </div>
-                    <div class="pricing-list5">
-                      <div class="pricing-list-item25">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item26">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item27">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item28">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    class="pricing-button18 thq-button-filled thq-button-animated"
-                  >
-                    <span class="thq-body-small"><span>Get started</span></span>
-                  </button>
-                </div>
-                <div class="pricing-column6 thq-card">
-                  <div class="pricing-price20">
-                    <div class="pricing-price21">
-                      <span class="pricing-text56 thq-body-large">
-                        <span>Enterprise plan</span>
-                      </span>
-                      <h3 class="pricing-text57 thq-heading-3">
-                        <span>$499/yr</span>
-                      </h3>
-                      <span class="thq-body-large">
-                        <span>or $49 monthly</span>
-                      </span>
-                    </div>
-                    <div class="pricing-list6">
-                      <div class="pricing-list-item29">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item30">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item31">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item32">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                      <div class="pricing-list-item33">
-                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
-                          <path
-                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
-                          ></path>
-                        </svg>
-                        <span class="thq-body-small">
-                          <span>Feature text goes here</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    class="pricing-button19 thq-button-filled thq-button-animated"
-                  >
-                    <span class="thq-body-small"><span>Get started</span></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </pricing-wrapper> -->
+
+        <!--Steps component-->
         <steps-wrapper class="steps-wrapper">
-          <!--Steps component-->
           <div class="steps-container1 thq-section-padding">
             <div class="steps-max-width thq-section-max-width">
               <div class="steps-container2 thq-grid-2">
                 <div class="steps-section-header">
                   <h2 class="thq-heading-2">
-                    Discover the Power of Our Products
+                    Free Quotations
                   </h2>
                   <p class="thq-body-large">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Suspendisse varius enim in eros elementum tristique. Duis
-                    cursus, mi quis viverra ornare, eros dolor interdum nulla,
-                    ut commodo diam libero vitae erat.
+                    Let us discuss in person your needs and understand your main vision of the work required. Specific plans and quotations prepared to fit your budget and time scales.<br><br>
+                    We are specialists at troubleshooting issues and difficulties in the way of a project. No surprises on cost and deadline changes without consulting with you directly.
                   </p>
-                  <div class="steps-actions">
-                    <button
-                      class="thq-button-filled thq-button-animated steps-button"
-                    >
-                      <span class="thq-body-small">Main action</span>
-                    </button>
-                  </div>
+                  <!-- <div class="steps-actions"> -->
+                    <div class="cta-actions">
+                      <a href="#contact">
+                        <button type="button" class="thq-button-filled cta-button">
+                          <span>Contact Us</span>
+                        </button>
+                      </a>
+                    </div>
+                  <!-- </div> -->
                 </div>
                 <div class="steps-container3">
                   <div class="steps-container4 thq-card">
@@ -988,18 +482,16 @@
                     </h2>
                     <span class="steps-text14 thq-body-small">
                       <span>
-                        Schedule a meeting with our landscape designer to
-                        discuss your ideas, budget, and timeline.
+                        Schedule a meeting with Tom to discuss your ideas, budget and timeline.
                       </span>
                     </span>
                     <label class="steps-text15 thq-heading-3">01</label>
                   </div>
                   <div class="steps-container5 thq-card">
-                    <h2 class="thq-heading-2"><span>Design Proposal</span></h2>
+                    <h2 class="thq-heading-2"><span>Project Proposal</span></h2>
                     <span class="steps-text17 thq-body-small">
                       <span>
-                        Receive a detailed design proposal including layout
-                        plans, plant selections, and cost estimates.
+                        Receive a detailed scope of work proposal including main design ideas discussed, separate stages when required, and time / cost estimates.
                       </span>
                     </span>
                     <label class="steps-text18 thq-heading-3">02</label>
@@ -1018,8 +510,8 @@
                     <h2 class="thq-heading-2"><span>Final Touches</span></h2>
                     <span class="steps-text23 thq-body-small">
                       <span>
-                        We ensure that every detail is perfect before completing
-                        the project, leaving you with a stunning landscape.
+                        We ensure that every detail is taken into account before completing
+                        the project, leaving you with a stunning outdoor space.
                       </span>
                     </span>
                     <label class="steps-text24 thq-heading-3">04</label>
@@ -1029,16 +521,16 @@
             </div>
           </div>
         </steps-wrapper>
+
+        <!--Testimonial component-->
         <testimonial-wrapper class="testimonial-wrapper">
-          <!--Testimonial component-->
           <div id="testimonials" class="thq-section-padding">
             <div class="testimonial-max-width thq-section-max-width">
               <div class="testimonial-container10">
                 <h2 class="thq-heading-2"><span>Testimonials</span></h2>
                 <span class="testimonial-text11 thq-body-small">
                   <span>
-                    Read what our clients have to say about our landscaping
-                    services.
+                    Read what our clients have to say about our landscaping, gardening services.
                   </span>
                 </span>
               </div>
@@ -1047,28 +539,26 @@
                   <div class="thq-animated-card-bg-1">
                     <div
                       data-animated="true"
-                      class="thq-card testimonial-card1"
+                      class="thq-card testimonial-card"
                     >
-                      <div class="testimonial-container12">
+                      <div class="testimonial-container">
                         <img
-                          alt="Client John Smith"
-                          src="https://images.unsplash.com/19/nomad.JPG?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
-                          class="testimonial-image1"
+                          alt="Client Lydia Vye"
+                          src="https://images.unsplash.com/photo-1636189239307-9f3a701f30a8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                          class="testimonial-image"
                         />
-                        <div class="testimonial-container13">
+                        <div class="testimonial-container-name">
                           <strong class="thq-body-large">
-                            <span>John Smith</span>
+                            <span>Lydia Vye</span>
                           </strong>
                           <span class="thq-body-small">
                             <span>Homeowner</span>
                           </span>
                         </div>
                       </div>
-                      <span class="testimonial-text14 thq-body-small">
+                      <span class="testimonial-text thq-body-small">
                         <span>
-                          The transformation of my backyard exceeded all my
-                          expectations. The attention to detail and
-                          professionalism shown by the team was outstanding.
+                          Tom did a great repair on a garden wall using heritage materials to properly match the character of the property. <br> Would definitely recommend him.
                         </span>
                       </span>
                     </div>
@@ -1078,60 +568,26 @@
                   <div class="thq-animated-card-bg-1">
                     <div
                       data-animated="true"
-                      class="thq-card testimonial-card2"
+                      class="thq-card testimonial-card"
                     >
-                      <div class="testimonial-container14">
+                      <div class="testimonial-container">
                         <img
-                          alt="Client Sarah Johnson"
-                          src="https://images.unsplash.com/photo-1504834636679-cd3acd047c06?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
-                          class="testimonial-image2"
-                        />
-                        <div class="testimonial-container15">
-                          <strong class="thq-body-large">
-                            <span>Sarah Johnson</span>
-                          </strong>
-                          <span class="thq-body-small">
-                            <span>Business Owner</span>
-                          </span>
-                        </div>
-                      </div>
-                      <span class="testimonial-text17 thq-body-small">
-                        <span>
-                          I hired them to design and maintain the gardens around
-                          my office building, and I couldn't be happier with the
-                          results. They truly have a green thumb!
-                        </span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="thq-animated-card-bg-2">
-                  <div class="thq-animated-card-bg-1">
-                    <div
-                      data-animated="true"
-                      class="thq-card testimonial-card3"
-                    >
-                      <div class="testimonial-container16">
-                        <img
-                          alt="Client Michael Brown"
+                          alt="Client Ben Burroughes"
                           src="https://images.unsplash.com/photo-1636189239307-9f3a701f30a8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
-                          class="testimonial-image3"
+                          class="testimonial-image"
                         />
-                        <div class="testimonial-container17">
+                        <div class="testimonial-container-name">
                           <strong class="thq-body-large">
-                            <span>Michael Brown</span>
+                            <span>Ben Burroughes</span>
                           </strong>
                           <span class="thq-body-small">
-                            <span>Real Estate Agent</span>
+                            <span>Homeowner</span>
                           </span>
                         </div>
                       </div>
-                      <span class="testimonial-text20 thq-body-small">
+                      <span class="testimonial-text thq-body-small">
                         <span>
-                          Their landscaping work added significant value to the
-                          properties I represent. I highly recommend their
-                          services to anyone looking to enhance their outdoor
-                          spaces.
+                          Tom is a brilliant professional. He transformed my Garden and achieved everything I wanted to a brilliant finish. <br> Would recommend to anyone!
                         </span>
                       </span>
                     </div>
@@ -1141,29 +597,178 @@
                   <div class="thq-animated-card-bg-1">
                     <div
                       data-animated="true"
-                      class="thq-card testimonial-card4"
+                      class="thq-card testimonial-card"
                     >
-                      <div class="testimonial-container18">
+                      <div class="testimonial-container">
                         <img
-                          alt="Client Emily Davis"
-                          src="https://images.unsplash.com/photo-1626038135427-bd4eb8193ba5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
-                          class="testimonial-image4"
+                          alt="Client Kayleigh Tanner"
+                          src="https://images.unsplash.com/photo-1504834636679-cd3acd047c06?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                          class="testimonial-image"
                         />
-                        <div class="testimonial-container19">
+                        <div class="testimonial-container-name">
                           <strong class="thq-body-large">
-                            <span>Emily Davis</span>
+                            <span>Kayleigh Tanner</span>
                           </strong>
                           <span class="thq-body-small">
-                            <span>Property Developer</span>
+                            <span>Homeowner</span>
                           </span>
                         </div>
                       </div>
-                      <span class="testimonial-text23 thq-body-small">
+                      <span class="testimonial-text thq-body-small">
                         <span>
-                          Working with them on various projects has been a
-                          pleasure. Their creativity and expertise have helped
-                          me bring my vision to life. I look forward to more
-                          collaborations in the future.
+                          Great service from Tom! In particular, he did a fantastic job rebuilding an old, dangerous garden wall. The neighbours are still talking about what a good job he did, and he's been nothing but knowledgeable, punctual and reliable. <br> 
+                          Highly recommended!
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="thq-animated-card-bg-2">
+                  <div class="thq-animated-card-bg-1">
+                    <div
+                      data-animated="true"
+                      class="thq-card testimonial-card"
+                    >
+                      <div class="testimonial-container">
+                        <img
+                          alt="Client Ed Jarman"
+                          src="https://images.unsplash.com/photo-1626038135427-bd4eb8193ba5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                          class="testimonial-image"
+                        />
+                        <div class="testimonial-container-name">
+                          <strong class="thq-body-large">
+                            <span>Ed Jarman</span>
+                          </strong>
+                          <span class="thq-body-small">
+                            <span>Homeowner</span>
+                          </span>
+                        </div>
+                      </div>
+                      <span class="testimonial-text thq-body-small">
+                        <span>
+                          Tom does regular gardening and maintenance for us.  He has a wide range of capabilities and can be trusted to both follow direction and work autonomously with sensible consideration.  A thoroughly likeable guy to boot.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="thq-animated-card-bg-2">
+                  <div class="thq-animated-card-bg-1">
+                    <div
+                      data-animated="true"
+                      class="thq-card testimonial-card"
+                    >
+                      <div class="testimonial-container">
+                        <img
+                          alt="Client Helen Ginn"
+                          src="https://images.unsplash.com/photo-1626038135427-bd4eb8193ba5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                          class="testimonial-image"
+                        />
+                        <div class="testimonial-container-name">
+                          <strong class="thq-body-large">
+                            <span>Helen Ginn</span>
+                          </strong>
+                          <span class="thq-body-small">
+                            <span>Homeowner</span>
+                          </span>
+                        </div>
+                      </div>
+                      <span class="testimonial-text thq-body-small">
+                        <span>
+                          Very lucky to have had Tom help with my garden for over a year now. He keeps it in shape with the big cut backs, small weeding jobs, hedge trimming, lawn mowing and landscaping such as repointing the paving. <br> 
+                          Tom understands the balance between keeping the garden looking good and maintaining a habitat for wildlife to thrive. He’s polite, kind and friendly and it’s always great to have a natter about what I’m planting and growing! <br> 
+                          Thank you! 💚🌱🌳🌸
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="thq-animated-card-bg-2">
+                  <div class="thq-animated-card-bg-1">
+                    <div
+                      data-animated="true"
+                      class="thq-card testimonial-card"
+                    >
+                      <div class="testimonial-container">
+                        <img
+                          alt="Client Gema Had-Pow"
+                          src="https://images.unsplash.com/photo-1626038135427-bd4eb8193ba5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                          class="testimonial-image"
+                        />
+                        <div class="testimonial-container-name">
+                          <strong class="thq-body-large">
+                            <span>Gema Had-Pow</span>
+                          </strong>
+                          <span class="thq-body-small">
+                            <span>Homeowner</span>
+                          </span>
+                        </div>
+                      </div>
+                      <span class="testimonial-text thq-body-small">
+                        <span>
+                          Tom helped us with a landscaping of both our front and back garden. He did the work in numerous stages, which helped us with the creativity of the project and managing the finances too. <br>
+                          He was very polite and friendly throughout and really responsive and flexible on all communication: planning, upkeep, invoicing, etc.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="thq-animated-card-bg-2">
+                  <div class="thq-animated-card-bg-1">
+                    <div
+                      data-animated="true"
+                      class="thq-card testimonial-card"
+                    >
+                      <div class="testimonial-container">
+                        <img
+                          alt="Client Jan Preston"
+                          src="https://images.unsplash.com/photo-1626038135427-bd4eb8193ba5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                          class="testimonial-image"
+                        />
+                        <div class="testimonial-container-name">
+                          <strong class="thq-body-large">
+                            <span>Jan Preston</span>
+                          </strong>
+                          <span class="thq-body-small">
+                            <span>Homeowner</span>
+                          </span>
+                        </div>
+                      </div>
+                      <span class="testimonial-text thq-body-small">
+                        <span>
+                          Tom worked on the end section of my garden, which was completely overgrown with brambles and bindweed. The intention for this section of the garden was a wildflower meadow, as the ground is poor and not a usable space. Tom recommended a course of action to rid as many of the brambles and weeds as possible, as well as selecting wild flower seeds to source. He kept in communication, and after a joint discussion and agreement, we changed the plan, but it has just been finished now. We both can't wait to see what it will look like in the spring. <br>
+                          Tom worked really hard as needed, provided good advice, but also kept in contact when he wasn't needed here working. He's also easy to reach agreement and work with.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="thq-animated-card-bg-2">
+                  <div class="thq-animated-card-bg-1">
+                    <div
+                      data-animated="true"
+                      class="thq-card testimonial-card"
+                    >
+                      <div class="testimonial-container">
+                        <img
+                          alt="Client Jonathan Craven"
+                          src="https://images.unsplash.com/photo-1626038135427-bd4eb8193ba5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIyODAxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                          class="testimonial-image"
+                        />
+                        <div class="testimonial-container-name">
+                          <strong class="thq-body-large">
+                            <span>Jonathan Craven</span>
+                          </strong>
+                          <span class="thq-body-small">
+                            <span>Homeowner</span>
+                          </span>
+                        </div>
+                      </div>
+                      <span class="testimonial-text thq-body-small">
+                        <span>
+                          Tom helped us out with a major dig out, groundworks and front garden remodelling in preparation for a new porch. He worked long hours in some trying circumstances to get everything completed to schedule, and everything was done exactly the way we’d discussed in advance, and to a very high standard of finish. <br>
+                          Tom went above and beyond to ensure that the work was finished to our - and his - satisfaction, and is a fantastic communicator, ensuring that all aspects of the work are correct and agreed before carrying them out. <br>
+                          We’d highly recommend Tom - he’s a fantastic hard worker, has a great attention to detail, and is enormously easy to get along with. A wonderful bloke to have around while he’s working and enormously skilled at what he does.
                         </span>
                       </span>
                     </div>
@@ -1173,8 +778,9 @@
             </div>
           </div>
         </testimonial-wrapper>
+
+        <!--Contact component-->
         <contact-wrapper class="contact-wrapper">
-          <!--Contact component-->
           <div id="contact" class="contact-contact20 thq-section-padding">
             <div class="contact-max-width thq-section-max-width">
               <div class="contact-section-title">
@@ -1203,13 +809,9 @@
                   <div class="contact-contact-info1">
                     <div class="contact-content3">
                       <h3 class="contact-text4 thq-heading-3">Email</h3>
-                      <!-- <p class="contact-text5 thq-body-large">
-                        <span>We look forward to hearing from you!</span>
-                      </p> -->
                     </div>
-                    <span class="contact-email thq-body-small">
-                      <a href="mailto:info@yourlandscapingcompany.com" class="a-link">info@yourlandscapingcompany.com</a>
-                      <!-- <span>info@yourlandscapingcompany.com</span> -->
+                    <span class="thq-button-filled thq-button-animated steps-button contact-email thq-body-small">
+                      <a href="mailto:groundcontrolbymajortom@gmail.com">groundcontrolbymajortom@gmail.com</a>
                     </span>
                   </div>
                 </div>
@@ -1222,15 +824,9 @@
                   <div class="contact-contact-info2">
                     <div class="contact-content5">
                       <h3 class="contact-text6 thq-heading-3">Phone</h3>
-                      <!-- <p class="contact-text7 thq-body-large">
-                        <span>
-                          Follow us on social media for more landscaping
-                          inspiration and tips.
-                        </span>
-                      </p> -->
                     </div>
-                    <span class="contact-phone thq-body-small">
-                      <span>+1 (123) 456-7890</span>
+                    <span class="thq-button-filled thq-button-animated steps-button contact-phone thq-body-small">
+                      <a href="tel:+4407969175388">+44 07969 175388</a>
                     </span>
                   </div>
                 </div>
@@ -1243,9 +839,6 @@
                   <div class="contact-contact-info3">
                     <div class="contact-content7">
                       <h3 class="contact-text8 thq-heading-3">Office</h3>
-                      <!-- <p class="contact-text9 thq-body-large">
-                        <span>Connect with us:</span>
-                      </p> -->
                     </div>
                     <span class="contact-address thq-body-small">
                       <span>123 Green Street, Cityville, State, 12345</span>
@@ -1256,8 +849,9 @@
             </div>
           </div>
         </contact-wrapper>
+
+        <!--Footer component-->
         <footer-wrapper class="footer-wrapper">
-          <!--Footer component-->
           <footer class="footer-footer1 thq-section-padding">
             <div class="footer-max-width thq-section-max-width">
               <div class="footer-content">
@@ -1276,7 +870,10 @@
                             d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
                           ></path>
                         </svg>
-                        <span class="thq-body-small">Facebook</span>
+                        <span class="thq-body-small">
+                           <a href="https://www.facebook.com/profile.php?id=100087231799067" target="_blank">
+                            Facebook</a>
+                        </span>
                       </div>
                       <div class="footer-link">
                         <svg
@@ -1287,7 +884,10 @@
                             d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
                           ></path>
                         </svg>
-                        <span class="thq-body-small">Instagram</span>
+                        <span class="thq-body-small">
+                          <a href="https://www.instagram.com/groundcontrolbymajortom/" target="_blank">
+                            Instagram</a>
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -1296,16 +896,16 @@
               <div class="footer-credits">
                 <div class="thq-divider-horizontal"></div>
                   <div class="footer-footer-links1">
-                    <a href="#home" class="thq-body-small">
+                    <a href="#home" class="thq-body-small thq-link">
                       <span>Home</span>
                     </a>
-                    <a href="#services" class="thq-body-small">
+                    <a href="#services" class="thq-body-small thq-link">
                       <span>Services</span>
                     </a>
-                    <a href="#testimonials" class="thq-body-small">
+                    <a href="#testimonials" class="thq-body-small thq-link">
                       <span>Testimonials</span>
                     </a>
-                    <a href="#contact" class="thq-body-small">
+                    <a href="#contact" class="thq-body-small thq-link">
                       <span>Contact</span>
                     </a>
                   </div>
@@ -1331,11 +931,7 @@
         </footer-wrapper>
       </div>
     </div>
-      <!-- data-section-id="navbar" -->
-      <script src="./js/index.umd.js"></script>
-    <!-- <script
-      data-section-id="navbar"
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script> -->
+    <!-- data-section-id="navbar" -->
+    <script src="./js/index.umd.js"></script>
   </body>
 </html>

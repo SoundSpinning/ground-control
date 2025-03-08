@@ -7,11 +7,15 @@
   --dl-space-space-unit: 16px;
   --dl-size-size-xxlarge: 288px;
   --dl-size-size-maxwidth: 1400px;
-  --dl-color-theme-accent1: #C5B6E0;
+  /* --dl-color-theme-accent1: #C5B6E0;
   --dl-color-theme-accent2: #8F84D2;
-  --dl-radius-radius-round: 50%;
   --dl-color-theme-primary1: #23297F;
-  --dl-color-theme-primary2: #585AB3;
+  --dl-color-theme-primary2: #585AB3; */
+  --dl-color-theme-primary1: #3c7236;
+  --dl-color-theme-primary2: #17994f;
+  --dl-color-theme-primary3: #244221;
+  --dl-color-theme-accent1: #6dbc45;
+  --dl-color-theme-accent2: #beac46;
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
   --dl-space-space-twounits: 32px;
@@ -24,8 +28,9 @@
   --dl-color-theme-secondary2: #FBF1EB;
   --dl-space-space-threeunits: 48px;
   --dl-color-theme-neutral-dark: #080A45;
-  --dl-radius-radius-cardradius: 4px;
   --dl-color-theme-neutral-light: #FFFFFF;
+  --dl-radius-radius-round: 50%;
+  --dl-radius-radius-cardradius: 4px;
   --dl-radius-radius-imageradius: 4px;
   --dl-radius-radius-inputradius: 8px;
   --dl-radius-radius-buttonradius: 8px;
@@ -478,7 +483,8 @@
   height: 100%;
   transition: transform 0.3s;
   border-radius: var(--dl-radius-radius-cardradius);
-  background-color: var(--dl-color-theme-accent1);
+  background-color: var(--dl-color-theme-secondary2);
+  /* background-color: var(--dl-color-theme-accent1); */
 }
  
 .thq-animated-card-bg-2 {
@@ -551,6 +557,9 @@
 @media(max-width: 991px) {
   .thq-grid-4 {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .thq-heading-2 {
+    font-size: 30px;
   }
 }
  
@@ -627,5 +636,8 @@
   }
   .thq-grid-auto-300 {
     grid-template-columns: 1fr;
+  }
+  .thq-heading-2 {
+    font-size: 30px;
   }
 }
