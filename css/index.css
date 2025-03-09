@@ -327,9 +327,9 @@
   justify-content: center;
 }
  
-.features1-tab-horizontal1 {
+.features1-tab-horizontal {
   gap: var(--dl-space-space-twounits);
-  cursor: pointer;
+  /* cursor: pointer; */
   display: flex;
   overflow: hidden;
   align-self: stretch;
@@ -361,16 +361,6 @@
   justify-content: center;
 }
  
-.features1-tab-horizontal2 {
-  gap: var(--dl-space-space-twounits);
-  cursor: pointer;
-  display: flex;
-  overflow: hidden;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
- 
 .features1-divider-container2 {
   display: flex;
   align-self: stretch;
@@ -393,16 +383,6 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
-}
- 
-.features1-tab-horizontal3 {
-  gap: var(--dl-space-space-twounits);
-  cursor: pointer;
-  display: flex;
-  overflow: hidden;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
 }
  
 .features1-divider-container3 {
