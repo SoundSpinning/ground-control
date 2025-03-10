@@ -5343,16 +5343,16 @@ var __accessCheck = (obj, member, msg) => {
               return;
             }
             burgerBtn.addEventListener("click", () => {
-              mobileMenu.classList.add("show");
+              mobileMenu.classList.add("flx-show");
             });
             closeBtn.addEventListener("click", () => {
-              mobileMenu.classList.remove("show");
+              mobileMenu.classList.remove("flx-show");
             });
             mobileMenu.addEventListener("click", (event) => {
               var _a;
               const target = event.target;
               if (target.tagName === "A" && ((_a = target.getAttribute("href")) == null ? void 0 : _a.startsWith("#"))) {
-                mobileMenu.classList.remove("show");
+                mobileMenu.classList.remove("flx-show");
               }
             });
           });
@@ -5360,23 +5360,23 @@ var __accessCheck = (obj, member, msg) => {
         this.getNavbarElementsAndAddEventsByDataThqAttrs = () => {
           const allNavbars = getAllElementsByDataAttribute(
             "thq",
-            "thq-navbar"
+            "flx-navbar"
           );
           const bodyOverflow = document.body.style.overflow;
           allNavbars.forEach((navbar) => {
             const burgerBtn = getElByDataAttribute(
               "thq",
-              "thq-burger-menu",
+              "flx-burger-menu",
               navbar
             );
             const mobileMenu = getElByDataAttribute(
               "thq",
-              "thq-mobile-menu",
+              "flx-mobile-menu",
               navbar
             );
             const closeBtn = getElByDataAttribute(
               "thq",
-              "thq-close-menu",
+              "flx-close-menu",
               navbar
             );
             if (!burgerBtn || !mobileMenu || !closeBtn) {
@@ -5401,29 +5401,29 @@ var __accessCheck = (obj, member, msg) => {
                   document.body.style.overflow = bodyOverflow;
                 }
                 if (currentElement.pathname === window.location.pathname) {
-                  mobileMenu.classList.remove("show");
-                  mobileMenu.classList.remove("thq-show");
-                  mobileMenu.classList.remove("thq-translate-to-default");
+                  mobileMenu.classList.remove("flx-show");
+                  mobileMenu.classList.remove("flx-show");
+                  mobileMenu.classList.remove("flx-translate-to-default");
                 }
                 this.removeEventListener("click", checkSameLinkClicked);
               });
               document.body.style.overflow = "hidden";
-              mobileMenu.classList.add("show");
-              mobileMenu.classList.add("thq-show");
-              mobileMenu.classList.add("thq-translate-to-default");
+              mobileMenu.classList.add("flx-show");
+              mobileMenu.classList.add("flx-show");
+              mobileMenu.classList.add("flx-translate-to-default");
             });
             closeBtn.addEventListener("click", () => {
               document.body.style.overflow = bodyOverflow;
-              mobileMenu.classList.remove("show");
-              mobileMenu.classList.remove("thq-show");
-              mobileMenu.classList.remove("thq-translate-to-default");
+              mobileMenu.classList.remove("flx-show");
+              mobileMenu.classList.remove("flx-show");
+              mobileMenu.classList.remove("flx-translate-to-default");
             });
             mobileMenu.addEventListener("click", (event) => {
               const target = event.target;
               if (target instanceof HTMLAnchorElement) {
-                mobileMenu.classList.remove("show");
-                mobileMenu.classList.remove("thq-show");
-                mobileMenu.classList.remove("thq-translate-to-default");
+                mobileMenu.classList.remove("flx-show");
+                mobileMenu.classList.remove("flx-show");
+                mobileMenu.classList.remove("flx-translate-to-default");
               }
             });
           });
@@ -5448,10 +5448,10 @@ var __accessCheck = (obj, member, msg) => {
               return;
             }
             burgerMenuElement.addEventListener("click", () => {
-              mobileMenuElement.classList.add("show");
+              mobileMenuElement.classList.add("flx-show");
             });
             closeMenuElement.addEventListener("click", () => {
-              mobileMenuElement.classList.remove("show");
+              mobileMenuElement.classList.remove("flx-show");
             });
           });
         };
